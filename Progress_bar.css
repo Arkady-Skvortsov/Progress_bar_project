@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+		* {
+			height: 13000px;
+		}
+
+		.progress-bar {
+			position: fixed;
+			width: 0%;
+			left: 0;
+			top: 0;
+			height: 4px;
+			background-color: tomato;
+		}
+ 
+        .scroll-block {
+        	height: 50px;
+        	width: 50px;
+        	position: fixed;
+        	background-color: black;
+        	margin-top: 700px;
+        	margin-left: 1600px;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        }
+
+        .scroll-block.s {
+        	margin-left: 1450px;
+        }
+
+        .scroll-block:hover {
+        	opacity: .8;
+        }
+
+        .scroll-block .fas {
+        	font-size: 30px;
+        	color: white;
+        	cursor: pointer;
+        	padding-left: 15px;
+        	padding-top: 10px;
+        }
